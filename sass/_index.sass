@@ -9,6 +9,72 @@
 // CONTENIDO:
 
 header
-  margin-top: 40px
-  .icon-logo-merlin
-    font-size: 82px
+	margin-top: 40px
+	.icon-logo-merlin
+		font-size: 82px
+
+.quien-es-merlin
+	height: 100vh
+	padding-top: calc((100vh - 552px) / 2)
+	padding-bottom: calc((100vh - 552px) / 2)
+	@media (max-width: 991px)
+		height: auto
+		padding-top: 75px
+		padding-bottom: 75px
+
+.hacia-donde-vamos
+	background-image: url("../img/cielo.jpg")
+	background-size: cover
+	color: #fff
+	padding-top: 100px
+	padding-bottom: 100px
+	height: 1015px
+	@media (max-width: 991px)
+		height: 1100px
+	.row:nth-child(2)
+		transition: ease 1s all
+		@media (max-width: 991px)
+			margin-top: 150px
+			&:hover
+				margin-top: 0
+		.widget-container
+			margin-top: 256px
+			border: 1px solid #A3D414
+			padding-top: 30px
+			padding-bottom: 30px
+			height: 95px
+			overflow: hidden
+			transition: ease 1s all
+			@media (max-width: 991px)
+				margin-top: 15px
+			h3
+				font-family: $Scala-Regular
+				margin-bottom: 0
+			p
+				font-family: $Scala-Regular
+				text-align: left
+				margin-top: 25px
+				margin-bottom: 0
+				padding-left: 15px
+				padding-right: 15px
+		.widget-container.mision:hover
+			background-color: rgba(163,212,20,.7)
+			height: 274px !important
+			margin-top: 160px
+			@media (max-width: 991px)
+				height: 284px !important
+				margin-top: 15px
+		.widget-container.vision:hover
+			background-color: rgba(163,212,20,.7)
+			height: 482px !important
+			margin-top: 60px
+			@media (max-width: 991px)
+				margin-top: 15px
+				height: 492px !important
+		.widget-container.valores:hover
+			background-color: rgba(163,212,20,.7)
+			height: 298px !important
+			margin-top: 160px
+			@media (max-width: 991px)
+				margin-top: 15px
+				height: 328px !important
