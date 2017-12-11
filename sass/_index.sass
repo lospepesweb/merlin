@@ -4,15 +4,20 @@
 
 // Merlín Estudio
 
-
-
 // CONTENIDO:
+// - Header
+// - Quién es Merlín?
+// - Hacia dónde vamos?
 
+
+// --- HEADER --- //
 header
 	margin-top: 40px
 	.icon-logo-merlin
 		font-size: 82px
 
+
+// --- QUIEN ES MERLIN --- //
 .quien-es-merlin
 	height: 100vh
 	padding-top: calc((100vh - 552px) / 2)
@@ -22,6 +27,8 @@ header
 		padding-top: 75px
 		padding-bottom: 75px
 
+
+// --- HACIA DONDE VAMOS --- //
 .hacia-donde-vamos
 	background-image: url("../img/cielo.jpg")
 	background-size: cover
@@ -32,7 +39,7 @@ header
 	@media (max-width: 991px)
 		height: 1100px
 	.row:nth-child(2)
-		transition: ease 1s all
+		+transition(ease 1s all)
 		@media (max-width: 991px)
 			margin-top: 150px
 			&:hover
@@ -44,7 +51,7 @@ header
 			padding-bottom: 30px
 			height: 95px
 			overflow: hidden
-			transition: ease 1s all
+			+transition(ease 1s all)
 			@media (max-width: 991px)
 				margin-top: 15px
 			h3
@@ -78,3 +85,30 @@ header
 			@media (max-width: 991px)
 				margin-top: 15px
 				height: 328px !important
+
+
+// --- QUE OFRECEMOS --- //
+.que-ofrecemos
+	padding-top: 100px
+	padding-bottom: 100px
+	.columna1
+		background-image: url("../img/foto.jpg")
+		background-size: cover
+		height: 1000px
+	.columna2
+		.row
+			height: 345px
+	.que-ofrecemos-container
+		position: relative
+		img
+			position: absolute
+			&:last-child
+				// opacity: 0
+				z-index: -1
+				top: 0px
+				+transition(ease 1s all)
+		&:hover
+			img
+				&:last-child
+					// opacity: 1
+					top: 200px

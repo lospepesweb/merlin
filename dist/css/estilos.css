@@ -221,7 +221,10 @@ header {
     .hacia-donde-vamos {
       height: 1100px; } }
   .hacia-donde-vamos .row:nth-child(2) {
-    transition: ease 1s all; }
+    -webkit-transition: ease 1s all;
+    -moz-transition: ease 1s all;
+    -ms-transition: ease 1s all;
+    -transition: ease 1s all; }
     @media (max-width: 991px) {
       .hacia-donde-vamos .row:nth-child(2) {
         margin-top: 150px; }
@@ -234,7 +237,10 @@ header {
       padding-bottom: 30px;
       height: 95px;
       overflow: hidden;
-      transition: ease 1s all; }
+      -webkit-transition: ease 1s all;
+      -moz-transition: ease 1s all;
+      -ms-transition: ease 1s all;
+      -transition: ease 1s all; }
       @media (max-width: 991px) {
         .hacia-donde-vamos .row:nth-child(2) .widget-container {
           margin-top: 15px; } }
@@ -272,5 +278,28 @@ header {
         .hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover {
           margin-top: 15px;
           height: 328px !important; } }
+
+.que-ofrecemos {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .que-ofrecemos .columna1 {
+    background-image: url("../img/foto.jpg");
+    background-size: cover;
+    height: 1000px; }
+  .que-ofrecemos .columna2 .row {
+    height: 345px; }
+  .que-ofrecemos .que-ofrecemos-container {
+    position: relative; }
+    .que-ofrecemos .que-ofrecemos-container img {
+      position: absolute; }
+      .que-ofrecemos .que-ofrecemos-container img:last-child {
+        z-index: -1;
+        top: 0px;
+        -webkit-transition: ease 1s all;
+        -moz-transition: ease 1s all;
+        -ms-transition: ease 1s all;
+        -transition: ease 1s all; }
+    .que-ofrecemos .que-ofrecemos-container:hover img:last-child {
+      top: 200px; }
 
 /*# sourceMappingURL=estilos.css.map */
