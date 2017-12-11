@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<meta charset="UTF-8">
 	<title>Merlín Estudio</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 
@@ -31,7 +31,7 @@
 					<ul class="navbar-nav" id="navbar-nav-lp">
 						<li class="nav-item"><a href="#quien-es-merlin" id="btn-menu-m-merlin" class="nav-link" role="button">merlín</a></li>
 						<li class="nav-item"><a href="#hacia-donde-vamos" id="btn-menu-m-hdv" class="nav-link" role="button">¿hacia dónde vamos?</a></li>
-						<li class="nav-item"><a href="#." class="nav-link" role="button">¿qué ofrecemos?</a></li>
+						<li class="nav-item"><a href="#que-ofrecemos" id="btn-menu-m-qf"class="nav-link" role="button">¿qué ofrecemos?</a></li>
 						<li class="nav-item"><a href="#." class="nav-link" role="button">portfolio</a></li>
 						<li class="nav-item"><a href="#." class="nav-link" role="button">contacto</a></li>
 					</ul>
@@ -82,7 +82,7 @@
 					<ul class="navbar-nav" id="navbar-nav-lp">
 						<li class="nav-item"><a href="#quien-es-merlin" id="btn-menu-merlin" class="nav-link" role="button">merlín</a></li>
 						<li class="nav-item"><a href="#hacia-donde-vamos" id="btn-menu-hdv" class="nav-link" role="button">¿hacia dónde vamos?</a></li>
-						<li class="nav-item"><a href="#." class="nav-link" role="button">¿qué ofrecemos?</a></li>
+						<li class="nav-item"><a href="#que-ofrecemos" id="btn-menu-qf" class="nav-link" role="button">¿qué ofrecemos?</a></li>
 						<li class="nav-item"><a href="#." class="nav-link" role="button">portfolio</a></li>
 						<li class="nav-item"><a href="#." class="nav-link" role="button">contacto</a></li>
 					</ul>
@@ -194,15 +194,14 @@
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<script type="text/javascript">
 
-		$(function () {
-			$('[data-toggle="tooltip"]').tooltip()
-		})
 
 		// Con este escript lo que hacemos que al seleccionar una de las opciones del menú se deslice hasta esa sección suavemente.
 		var listaIDS = [document.getElementById('btn-menu-merlin'),
 				document.getElementById('btn-menu-m-merlin'),
 				document.getElementById('btn-menu-hdv'),
 				document.getElementById('btn-menu-m-hdv'),
+				document.getElementById('btn-menu-qf'),
+				document.getElementById('btn-menu-m-qf'),
 				];
 
 		for (var i=0; i<listaIDS.length; i++) {
