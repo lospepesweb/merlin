@@ -37,7 +37,7 @@ header
 	padding-bottom: 100px
 	height: 1015px
 	@media (max-width: 991px)
-		height: 1100px
+		height: 1150px
 	.row:nth-child(2)
 		+transition(ease 1s all)
 		@media (max-width: 991px)
@@ -68,21 +68,48 @@ header
 			background-color: rgba(163,212,20,.7)
 			height: 274px !important
 			margin-top: 160px
+			@media (max-width: 1200px)
+				height: 294px !important
 			@media (max-width: 991px)
+				height: 190px !important
+			@media (max-width: 765px)
+				height: 200px !important
+			@media (max-width: 541px)
+				height: 250px !important
+			@media (max-width: 404px)
+				height: 260px !important
+			@media (max-width: 380px)
 				height: 284px !important
 				margin-top: 15px
 		.widget-container.vision:hover
 			background-color: rgba(163,212,20,.7)
 			height: 482px !important
 			margin-top: 60px
+			@media (max-width: 1200px)
+				margin-top: 20px
+				height: 552px !important
 			@media (max-width: 991px)
+				height: 290px !important
+			@media (max-width: 767px)
+				height: 390px !important
+			@media (max-width: 380px)
 				margin-top: 15px
-				height: 492px !important
+				height: 550px !important
 		.widget-container.valores:hover
 			background-color: rgba(163,212,20,.7)
 			height: 298px !important
 			margin-top: 160px
+			@media (max-width: 1200px)
+				margin-top: 130px
+				height: 350px !important
 			@media (max-width: 991px)
+				height: 200px !important
+				margin-top: 15px
+			@media (max-width: 767px)
+				height: 250px !important
+			@media (max-width: 509px)
+				height: 250px !important
+			@media (max-width: 380px)
 				margin-top: 15px
 				height: 328px !important
 
@@ -97,18 +124,16 @@ header
 		height: 1000px
 	.columna2
 		.row
-			height: 345px
+			height: 300px
 	.que-ofrecemos-container
 		position: relative
 		img
 			position: absolute
 			&:last-child
-				// opacity: 0
 				z-index: -1
 				top: 0px
 				+transition(ease 1s all)
 		&:hover
 			img
 				&:last-child
-					// opacity: 1
-					top: 200px
+					top: 150px
