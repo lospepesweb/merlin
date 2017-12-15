@@ -13,6 +13,8 @@
 // --- HEADER --- //
 header
 	margin-top: 40px
+	@media (max-width: 380px)
+	margin-top: 10px
 	.icon-logo-merlin
 		font-size: 82px
 
@@ -24,8 +26,13 @@ header
 	padding-bottom: calc((100vh - 552px) / 2)
 	@media (max-width: 991px)
 		height: auto
-		padding-top: 75px
-		padding-bottom: 75px
+		padding: 75px 15px
+		p
+			padding-left: 15px
+			padding-right: 15px
+		p:first-child
+			margin-top: 50px
+
 
 
 // --- HACIA DONDE VAMOS --- //
@@ -38,6 +45,10 @@ header
 	height: 1015px
 	@media (max-width: 991px)
 		height: 1150px
+		h2
+			font-size: 52px
+			text-align: center
+			margin-bottom: 100px
 	.row:nth-child(2)
 		+transition(ease 1s all)
 		@media (max-width: 991px)
@@ -79,7 +90,7 @@ header
 			@media (max-width: 404px)
 				height: 260px !important
 			@media (max-width: 380px)
-				height: 284px !important
+				height: 250px !important
 				margin-top: 15px
 		.widget-container.vision:hover
 			background-color: rgba(163,212,20,.7)
@@ -91,10 +102,11 @@ header
 			@media (max-width: 991px)
 				height: 290px !important
 			@media (max-width: 767px)
-				height: 390px !important
+				height: 350px !important
+			@media (max-width: 448px)
+				height: 400px !important
 			@media (max-width: 380px)
-				margin-top: 15px
-				height: 550px !important
+				height: 425px !important
 		.widget-container.valores:hover
 			background-color: rgba(163,212,20,.7)
 			height: 298px !important
@@ -111,7 +123,7 @@ header
 				height: 250px !important
 			@media (max-width: 380px)
 				margin-top: 15px
-				height: 328px !important
+				height: 265px !important
 
 
 // --- QUE OFRECEMOS --- //
@@ -122,9 +134,13 @@ header
 		background-image: url("../img/foto.jpg")
 		background-size: cover
 		height: 1000px
+		@media (max-width: 991px)
+			height: 500px
 	.columna2
 		.row
 			height: 300px
+			@media (max-width: 991px)
+				height: 300px
 	.que-ofrecemos-container
 		position: relative
 		img

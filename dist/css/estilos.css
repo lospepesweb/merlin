@@ -1,1 +1,230 @@
-@charset "UTF-8";.d-lg-block.nav-lg,.navbar{padding-left:0;padding-right:0}.nav-icon span:nth-child(1),.nav-icon span:nth-child(2),.navbar .navbar-nav .nav-item .nav-link .closeNav{-webkit-transform-origin:center center;-moz-transform-origin:center center;-ms-transform-origin:center center;-transform-origin:center center}@font-face{font-family:Scala-Regular;src:url(../fonts/ScalaSans-RegularSC.otf)}@font-face{font-family:icomoon;src:url(../fonts/icomoon.eot?4jqyld);src:url(../fonts/icomoon.eot?4jqyld#iefix) format("embedded-opentype"),url(../fonts/icomoon.ttf?4jqyld) format("truetype"),url(../fonts/icomoon.woff?4jqyld) format("woff"),url(../fonts/icomoon.svg?sinhtw#icomoon) format("svg");font-weight:400;font-style:normal}[class*=" icon-"],[class^=icon-]{font-family:icomoon!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}h1,h1 p,h2,h2 p{font-family:Scala-Regular}.icon-be:before{content:"";color:#000}.icon-fb:before{content:"";color:#000}.icon-instagram:before{content:"";color:#000}.icon-logo-merlin:before{content:""}h1,h2{margin-bottom:50px;font-size:72px}@media (max-width:991px){h1,h2{font-size:52px}}.d-lg-none.nav-lg p{margin-bottom:0}.d-lg-none.nav-lg .icon-logo-merlin{font-size:48px}.navbar{margin-top:40px;padding-bottom:15px}.navbar .redes{color:#000;display:inline-block;padding-left:5px;padding-right:5px}.navbar .redes:hover{color:#000;text-decoration:none!important}.navbar .navbar-nav{margin-right:0;margin-left:auto;font-family:Scala-Regular;font-size:16px}.navbar .navbar-nav .nav-item{margin-left:0}@media (max-width:991px){.navbar{margin-top:0}.navbar .navbar-nav{height:calc(100vh - 168px);margin-top:30px}.navbar .navbar-nav .nav-item{margin-left:0;padding-top:10px;padding-bottom:10px;vertical-align:middle}}.navbar .navbar-nav .nav-item .nav-link{padding:8px 15px;color:#000}.navbar .navbar-nav .nav-item .nav-link .closeNav{display:inline-block;right:8px;top:14px;position:absolute;font-size:18px;-webkit-transition:.25s ease-in-out;-moz-transition:.25s ease-in-out;-ms-transition:.25s ease-in-out;-transition:.25s ease-in-out}.navbar .navbar-nav .nav-item .nav-link:hover{color:#000!important}@media (max-width:991px){.navbar .navbar-nav .nav-item .nav-link{padding-left:0}}.navbar-toggler{padding:0;border:none}.navbar-toggler:active,.navbar-toggler:focus,.navbar-toggler:hover{border:none;outline:0}.navbar-toggler:hover{cursor:pointer}.nav-icon{padding:10px 2px}.nav-icon span{-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);-transform:rotate(0);-webkit-transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-ms-transition:.5s ease-in-out;-transition:.5s ease-in-out}.hacia-donde-vamos .row:nth-child(2),.hacia-donde-vamos .row:nth-child(2) .widget-container,.que-ofrecemos .que-ofrecemos-container img:last-child{-webkit-transition:ease 1s all;-moz-transition:ease 1s all;-ms-transition:ease 1s all;-transition:ease 1s all}.nav-icon span:nth-child(1){top:0}.nav-icon span:nth-child(2){top:100%}.nav-icon.open span:nth-child(1){-webkit-transform:translateY(100%) rotate(135deg);-moz-transform:translateY(100%) rotate(135deg);-ms-transform:translateY(100%) rotate(135deg);-transform:translateY(100%) rotate(135deg)}.nav-icon.open span:nth-child(2){-webkit-transform:translateY(-200%) rotate(45deg);-moz-transform:translateY(-200%) rotate(45deg);-ms-transform:translateY(-200%) rotate(45deg);-transform:translateY(-200%) rotate(45deg)}.icon-bar{background-color:#000;width:22px;height:2px;display:block;-webkit-border-radius:1px;-moz-border-radius:1px;-ms-border-radius:1px;border-radius:1px;margin:4.5px 0}.hacia-donde-vamos .row:nth-child(2) .widget-container h3,.hacia-donde-vamos .row:nth-child(2) .widget-container p{font-family:Scala-Regular;margin-bottom:0}.closeNav.open{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-transform:rotate(45deg)}.dropdown-menu a:nth-child(1){animation-delay:0s}.dropdown-menu a:nth-child(2){animation-delay:116ms}.dropdown-menu a:nth-child(3){animation-delay:233ms}.dropdown-menu{transform:scaleY(0);transform-origin:top center;animation-name:aparecer;animation-duration:.35s;animation-fill-mode:forwards}@keyframes aparecer{from{transform:scaleY(0)}to{transform:scaleY(1)}}header{margin-top:40px}header .icon-logo-merlin{font-size:82px}.quien-es-merlin{height:100vh;padding-top:calc((100vh - 552px)/ 2);padding-bottom:calc((100vh - 552px)/ 2)}@media (max-width:991px){.quien-es-merlin{height:auto;padding-top:75px;padding-bottom:75px}}.hacia-donde-vamos{background-image:url(../img/cielo.jpg);background-size:cover;color:#fff;padding-top:100px;padding-bottom:100px;height:1015px}@media (max-width:991px){.hacia-donde-vamos{height:1150px}.hacia-donde-vamos .row:nth-child(2){margin-top:150px}.hacia-donde-vamos .row:nth-child(2):hover{margin-top:0}}.hacia-donde-vamos .row:nth-child(2) .widget-container{margin-top:256px;border:1px solid #A3D414;padding-top:30px;padding-bottom:30px;height:95px;overflow:hidden}@media (max-width:991px){.hacia-donde-vamos .row:nth-child(2) .widget-container{margin-top:15px}}.hacia-donde-vamos .row:nth-child(2) .widget-container p{text-align:left;margin-top:25px;padding-left:15px;padding-right:15px}.hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover{background-color:rgba(163,212,20,.7);height:274px!important;margin-top:160px}@media (max-width:1200px){.hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover{height:294px!important}}@media (max-width:991px){.hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover{height:190px!important}}@media (max-width:765px){.hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover{height:200px!important}}@media (max-width:541px){.hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover{height:250px!important}}@media (max-width:404px){.hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover{height:260px!important}}@media (max-width:380px){.hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover{height:284px!important;margin-top:15px}}.hacia-donde-vamos .row:nth-child(2) .widget-container.vision:hover{background-color:rgba(163,212,20,.7);height:482px!important;margin-top:60px}@media (max-width:1200px){.hacia-donde-vamos .row:nth-child(2) .widget-container.vision:hover{margin-top:20px;height:552px!important}}@media (max-width:991px){.hacia-donde-vamos .row:nth-child(2) .widget-container.vision:hover{height:290px!important}}@media (max-width:767px){.hacia-donde-vamos .row:nth-child(2) .widget-container.vision:hover{height:390px!important}}@media (max-width:380px){.hacia-donde-vamos .row:nth-child(2) .widget-container.vision:hover{margin-top:15px;height:550px!important}}.hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover{background-color:rgba(163,212,20,.7);height:298px!important;margin-top:160px}@media (max-width:1200px){.hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover{margin-top:130px;height:350px!important}}@media (max-width:991px){.hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover{height:200px!important;margin-top:15px}}@media (max-width:767px){.hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover{height:250px!important}}@media (max-width:509px){.hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover{height:250px!important}}@media (max-width:380px){.hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover{margin-top:15px;height:328px!important}}.que-ofrecemos{padding-top:100px;padding-bottom:100px}.que-ofrecemos .columna1{background-image:url(../img/foto.jpg);background-size:cover;height:1000px}.que-ofrecemos .columna2 .row{height:300px}.que-ofrecemos .que-ofrecemos-container{position:relative}.que-ofrecemos .que-ofrecemos-container img{position:absolute}.que-ofrecemos .que-ofrecemos-container img:last-child{z-index:-1;top:0}.que-ofrecemos .que-ofrecemos-container:hover img:last-child{top:150px}
+@charset "UTF-8";
+@font-face {
+  font-family: "Scala-Regular";
+  src: url(../fonts/ScalaSans-RegularSC.otf); }
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?4jqyld");
+  src: url("../fonts/icomoon.eot?4jqyld#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?4jqyld") format("truetype"), url("../fonts/icomoon.woff?4jqyld") format("woff"), url("../fonts/icomoon.svg?sinhtw#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-be:before {
+  content: "";
+  color: #000; }
+
+.icon-fb:before {
+  content: "";
+  color: #000; }
+
+.icon-instagram:before {
+  content: "";
+  color: #000; }
+
+.icon-logo-merlin:before {
+  content: ""; }
+
+h1, h2 {
+  font-family: "Scala-Regular";
+  margin-bottom: 50px;
+  font-size: 72px; }
+  @media (max-width: 991px) {
+    h1, h2 {
+      font-size: 32px;
+      margin-bottom: 0px; } }
+
+p {
+  font-family: "Scala-Regular"; }
+  @media (max-width: 991px) {
+    p {
+      font-size: 14px; } }
+
+.navbar {
+  padding-left: 0px;
+  padding-right: 0px; }
+  .navbar ul {
+    padding-right: 0px; }
+    .navbar ul .nav-item {
+      margin-right: 0px;
+      display: inline-block;
+      font-family: "Scala-Regular"; }
+      @media (max-width: 991px) {
+        .navbar ul .nav-item {
+          display: block; } }
+      .navbar ul .nav-item a {
+        color: #1E1B21; }
+
+header {
+  margin-top: 40px;
+  margin-top: 10px; }
+  header .icon-logo-merlin {
+    font-size: 82px; }
+
+.quien-es-merlin {
+  height: 100vh;
+  padding-top: calc((100vh - 552px) / 2);
+  padding-bottom: calc((100vh - 552px) / 2); }
+  @media (max-width: 991px) {
+    .quien-es-merlin {
+      height: auto;
+      padding: 75px 15px; }
+      .quien-es-merlin p {
+        padding-left: 15px;
+        padding-right: 15px; }
+      .quien-es-merlin p:first-child {
+        margin-top: 50px; } }
+
+.hacia-donde-vamos {
+  background-image: url("../img/cielo.jpg");
+  background-size: cover;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 1015px; }
+  @media (max-width: 991px) {
+    .hacia-donde-vamos {
+      height: 1150px; }
+      .hacia-donde-vamos h2 {
+        font-size: 52px;
+        text-align: center;
+        margin-bottom: 100px; } }
+  .hacia-donde-vamos .row:nth-child(2) {
+    -webkit-transition: ease 1s all;
+    -moz-transition: ease 1s all;
+    -ms-transition: ease 1s all;
+    -transition: ease 1s all; }
+    @media (max-width: 991px) {
+      .hacia-donde-vamos .row:nth-child(2) {
+        margin-top: 150px; }
+        .hacia-donde-vamos .row:nth-child(2):hover {
+          margin-top: 0; } }
+    .hacia-donde-vamos .row:nth-child(2) .widget-container {
+      margin-top: 256px;
+      border: 1px solid #A3D414;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      height: 95px;
+      overflow: hidden;
+      -webkit-transition: ease 1s all;
+      -moz-transition: ease 1s all;
+      -ms-transition: ease 1s all;
+      -transition: ease 1s all; }
+      @media (max-width: 991px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container {
+          margin-top: 15px; } }
+      .hacia-donde-vamos .row:nth-child(2) .widget-container h3 {
+        font-family: "Scala-Regular";
+        margin-bottom: 0; }
+      .hacia-donde-vamos .row:nth-child(2) .widget-container p {
+        font-family: "Scala-Regular";
+        text-align: left;
+        margin-top: 25px;
+        margin-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px; }
+    .hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover {
+      background-color: rgba(163, 212, 20, 0.7);
+      height: 274px !important;
+      margin-top: 160px; }
+      @media (max-width: 1200px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover {
+          height: 294px !important; } }
+      @media (max-width: 991px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover {
+          height: 190px !important; } }
+      @media (max-width: 765px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover {
+          height: 200px !important; } }
+      @media (max-width: 541px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover {
+          height: 250px !important; } }
+      @media (max-width: 404px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover {
+          height: 260px !important; } }
+      @media (max-width: 380px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.mision:hover {
+          height: 250px !important;
+          margin-top: 15px; } }
+    .hacia-donde-vamos .row:nth-child(2) .widget-container.vision:hover {
+      background-color: rgba(163, 212, 20, 0.7);
+      height: 482px !important;
+      margin-top: 60px; }
+      @media (max-width: 1200px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.vision:hover {
+          margin-top: 20px;
+          height: 552px !important; } }
+      @media (max-width: 991px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.vision:hover {
+          height: 290px !important; } }
+      @media (max-width: 767px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.vision:hover {
+          height: 350px !important; } }
+      @media (max-width: 448px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.vision:hover {
+          height: 400px !important; } }
+      @media (max-width: 380px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.vision:hover {
+          height: 425px !important; } }
+    .hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover {
+      background-color: rgba(163, 212, 20, 0.7);
+      height: 298px !important;
+      margin-top: 160px; }
+      @media (max-width: 1200px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover {
+          margin-top: 130px;
+          height: 350px !important; } }
+      @media (max-width: 991px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover {
+          height: 200px !important;
+          margin-top: 15px; } }
+      @media (max-width: 767px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover {
+          height: 250px !important; } }
+      @media (max-width: 509px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover {
+          height: 250px !important; } }
+      @media (max-width: 380px) {
+        .hacia-donde-vamos .row:nth-child(2) .widget-container.valores:hover {
+          margin-top: 15px;
+          height: 265px !important; } }
+
+.que-ofrecemos {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .que-ofrecemos .columna1 {
+    background-image: url("../img/foto.jpg");
+    background-size: cover;
+    height: 1000px; }
+    @media (max-width: 991px) {
+      .que-ofrecemos .columna1 {
+        height: 500px; } }
+  .que-ofrecemos .columna2 .row {
+    height: 300px; }
+    @media (max-width: 991px) {
+      .que-ofrecemos .columna2 .row {
+        height: 300px; } }
+  .que-ofrecemos .que-ofrecemos-container {
+    position: relative; }
+    .que-ofrecemos .que-ofrecemos-container img {
+      position: absolute; }
+      .que-ofrecemos .que-ofrecemos-container img:last-child {
+        z-index: -1;
+        top: 0px;
+        -webkit-transition: ease 1s all;
+        -moz-transition: ease 1s all;
+        -ms-transition: ease 1s all;
+        -transition: ease 1s all; }
+    .que-ofrecemos .que-ofrecemos-container:hover img:last-child {
+      top: 150px; }
+
+/*# sourceMappingURL=estilos.css.map */
