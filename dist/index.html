@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
 	<meta charset="UTF-8">
 	<title>Merlín Estudio</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -49,8 +50,7 @@
 			<div class="col-12 col-lg-6 d-none d-lg-block">
 				<h1>¿quién es Merlín?</h1>
 				<p>Merlín es un Estudio de Diseño Gráfico que ofrece servicios de calidad.</p>
-				<p>Está integrado por Florencia y Paula, nació pensando en dar soluciones de comunicación visual para las necesidades de cada cliente. Creemos que el trabajo como diseñadoras gráficas funciona mejor con la retroalimentación con el cliente, evoluciona, hasta llegar al producto final, el momento mágico.</p>
-				<p>Creemos que el diseño es mágico. Encontrar la respuesta a través de colores, líneas, imágenes, es como armar la pócima perfecta, por eso nuestro estudio, lleva el nombre del místico mago.</p>
+				<p class=" text-justify">Está integrado por Florencia y Paula, nació pensando en dar soluciones de comunicación visual para las necesidades de cada cliente. Creemos que el trabajo como diseñadoras gráficas funciona mejor con la retroalimentación con el cliente, evoluciona, hasta llegar al producto final, el momento mágico. Creemos que el diseño es mágico, encontrar la respuesta a través de colores, líneas, imágenes, es como armar la pócima perfecta, por eso nuestro estudio, lleva el nombre del místico mago.</p>
 			</div>
 			<h1 class="col-6 d-block d-lg-none text-center">¿quién es Merlín?</h1>
 			<div class="col-6 col-lg-6 text-center">
@@ -68,11 +68,11 @@
 	<!-- ¿HACIA DÓNDE VAMOS? -->
 	<section class="hacia-donde-vamos" id="hacia-donde-vamos">
 		<div class="container">
-			<div class="row">
-				<div class="col-12 col-lg-3">
+			<div class="row justify-content-center">
+				<div class="col-10 col-lg-3">
 					<h2>¿hacia dónde vamos?</h2>
 				</div>
-				<div class="col-3 col-lg-2"></div>
+				<div class="col-3 col-lg-2 d-none d-lg-block"></div>
 				<div class="col-6 col-lg-6">
 					<img src="img/hacia-donde-vamos.png" class="img-fluid" alt="Merlín Estudio">
 				</div>
@@ -80,19 +80,19 @@
 			<div class="row text-center">
 				<div class="col-12 col-lg-4">
 					<div class="widget-container mision">
-						<h3>misión</h3>
+						<h3>Misión</h3>
 						<p>Somos un Estudio de Diseño Gráfico que ofrece servicios de calidad. Nuestra misión es cumplir las expectativas de nuestros clientes, para eso, nos perfeccionamos e innovamos para garantizarles soluciones acordes con sus necesidades.</p>
 					</div>
 				</div>
 				<div class="col-12 col-lg-4">
 					<div class="widget-container vision">
-						<h3>visión</h3>
+						<h3>Visión</h3>
 						<p>Pasión: Pasamos horas buscando la composición perfecta, la noche se vuelve día y cada nuevo proyecto una nueva oportunidad de volver a enamorarnos del diseño. <br> Mejora continua: Mantenemos el deseo y el compromiso de crecer día a día. <br> Transparencia: Nuestros mensajes y acciones son  claras, en nuestros procedimientos y modos de trabajo no queremos dejar lugar a dudas. <br> Competitividad: Que nos oriente a hacia la productividad y el trabajo en equipo. Compromiso: Brindamos seguridad y confianza a quie nes nos eligen.</p>
 					</div>
 				</div>
 				<div class="col-12 col-lg-4">
 					<div class="widget-container valores">
-						<h3>valores</h3>
+						<h3>Valores</h3>
 						<p>Queremos ser referentes en comunicación visual, deseamos desempeñar un papel fundamental para ayudar a cualquier organización, profesional, empresa o cliente particular, en el desarrollo de susproyectos, aportando nuestro grano de arena para el crecimiento de ellos.</p>
 					</div>
 				</div>
@@ -108,10 +108,12 @@
 			</div>
 			<div class="col-12 col-lg-6 columna2">
 				<div class="row">
+
 					<div class="col-6 d-flex justify-content-center que-ofrecemos-container">
 						<img src="img/que-ofrecemos-fotografia.jpg" class="img-fluid">
 						<img src="img/que-ofrecemos-fotografia-tooltips.jpg" class="img-fluid">
 					</div>
+
 					<div class="col-6 d-flex justify-content-center que-ofrecemos-container">
 						<img src="img/que-ofrecemos-packaging.jpg" class="img-fluid">
 						<img src="img/que-ofrecemos-packaging-tooltips.jpg" class="img-fluid">
@@ -141,6 +143,84 @@
 				</div>
 			</div>
 		</div>
+	</section>
+
+	<!-- PORTFOLIO -->
+	<section class="container portfolio">
+		<div class="row align-items-end">
+			<div class="col-12 col-lg-4">
+				<h2>Portfolio</h2>
+			</div>
+			<div class="col-12 col-lg-8">
+				<nav class="navbar">
+					<ul>
+						<li class="nav-item"><button id="btn-port-identidad" class="nav-link">Identidad</button></li>
+						<li class="nav-item"><button id="btn-port-foto" class="nav-link">Fotografía</button></li>
+						<li class="nav-item"><button id="btn-port-grafico" class="nav-link">Gráfico</button></li>
+						<li class="nav-item"><button id="btn-port-mkt" class="nav-link">Marketing Digital</button></li>
+					</ul>
+				</nav>
+			</div>
+
+		</div>
+			<div class="row portfolio-container">
+				<div id="portfolio-identidad">
+				
+				</div>
+
+				<div id="portfolio-foto">
+
+
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block" src="img/fotografia-1.jpg" alt="Dos Santas">
+								<p>Dos Santas</p>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block" src="img/fotografia-2.jpg" alt="Dos Santas">
+								<p>Dos Santas</p>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block" src="img/fotografia-3.jpg" alt="Dos Santas">
+								<p>Dos Santas</p>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block" src="img/fotografia-4.jpg" alt="Dos Santas">
+								<p>Dos Santas</p>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block" src="img/fotografia-5.jpg" alt="Dos Santas">
+								<p>Dos Santas</p>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block" src="img/fotografia-6.jpg" alt="Dos Santas">
+								<p>Dos Santas</p>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						</a>
+					</div>
+
+
+
+
+
+
+				</div>
+
+				<div id="portfolio-grafico">
+				
+				</div>
+
+				<div id="portfolio-mktdigital">
+				
+				</div>
+			</div>
 	</section>
 	
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>

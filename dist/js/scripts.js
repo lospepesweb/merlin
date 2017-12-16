@@ -1,5 +1,5 @@
 // ------------------------------------------------
-// 			   SCRIPTS FRONT-END
+// 			      SCRIPTS FRONT-END
 // ------------------------------------------------
 
 
@@ -8,28 +8,41 @@
 =            ANIMACIÓN DEL BOTÓN HAMBURGUESA            =
 =======================================================*/
 
-$('#nav-icon').click(function(){
+btnIdentidad = $("#btn-port-identidad");
+btnFoto = $("#btn-port-foto");
+btnGrafico = $("#btn-port-grafico");
+btnMkt = $("#btn-port-mkt");
 
-	$(this).toggleClass('open');
 
-	if($('.navClose-link').children().hasClass("open")){
-		$('.navClose-link').children().removeClass("open");
-	}
-
+btnIdentidad.click(function(){
+	$('#portfolio-identidad').css('left', '0%');
+	$('#portfolio-foto').css('left', '100%');
+	$('#portfolio-grafico').css('left', '200%');
+	$('#portfolio-mktdigital').css('left', '300%');
 })
 
-$('.navClose-link').click(function(e){
-	
-	var id = e.target.id;
-
-	$('.navClose-link').children().removeClass("open");
-	
-	if(!$('#'+id).parent().hasClass('show')){
-		$('#'+id).children().addClass('open');
-	} else {
-		$('#'+id).children().removeClass('open');
-	}
-
+btnFoto.click(function(){
+	$('#portfolio-identidad').css('left', '-100%');
+	$('#portfolio-foto').css('left', '0%');
+	$('#portfolio-grafico').css('left', '100%');
+	$('#portfolio-mktdigital').css('left', '200%');
 })
+
+btnGrafico.click(function(){
+	$('#portfolio-identidad').css('left', '-200%');
+	$('#portfolio-foto').css('left', '-100%');
+	$('#portfolio-grafico').css('left', '0');
+	$('#portfolio-mktdigital').css('left', '100%');
+})
+
+btnMkt.click(function(){
+	$('#portfolio-identidad').css('left', '-300%');
+	$('#portfolio-foto').css('left', '-200%');
+	$('#portfolio-grafico').css('left', '-100%');
+	$('#portfolio-mktdigital').css('left', '0');
+})
+
+
+
 
 /*=====  End of ANIMACIÓN DEL BOTÓN HAMBURGUESA  ======*/
