@@ -11,6 +11,9 @@
 .navbar
 	padding-left: 0px
 	padding-right: 0px
+	a
+		&:hover
+			text-decoration: none
 	ul
 		padding-right: 0px
 		.nav-item
@@ -20,5 +23,7 @@
 			@media (max-width: 991px)
 				display: block
 			a
-				color: #2E3339
+				color: $negro
+				&:hover
+					text-decoration: none !important
 

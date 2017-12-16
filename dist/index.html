@@ -3,7 +3,6 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
 	<meta charset="UTF-8">
 	<title>Merlín Estudio</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -37,8 +36,8 @@
 				<li class="nav-item"><a href="#quien-es-merlin" id="btn-menu-merlin" class="nav-link" role="button">merlín</a></li>
 				<li class="nav-item"><a href="#hacia-donde-vamos" id="btn-menu-hdv" class="nav-link" role="button">¿hacia dónde vamos?</a></li>
 				<li class="nav-item"><a href="#que-ofrecemos" id="btn-menu-qf" class="nav-link" role="button">¿qué ofrecemos?</a></li>
-				<li class="nav-item"><a href="#." class="nav-link" role="button">portfolio</a></li>
-				<li class="nav-item"><a href="#." class="nav-link" role="button">contacto</a></li>
+				<li class="nav-item"><a href="#portfolio" id="btn-menu-portfolio" class="nav-link" role="button">portfolio</a></li>
+				<li class="nav-item"><a href="#footer" id="btn-menu-footer" class="nav-link" role="button">contacto</a></li>
 			</ul>
 
 		</nav>
@@ -146,7 +145,7 @@
 	</section>
 
 	<!-- PORTFOLIO -->
-	<section class="container portfolio">
+	<section class="container portfolio" id="portfolio">
 		<div class="row align-items-end">
 			<div class="col-12 col-lg-4">
 				<h2>Portfolio</h2>
@@ -163,65 +162,168 @@
 			</div>
 
 		</div>
-			<div class="row portfolio-container">
-				<div id="portfolio-identidad">
-				
-				</div>
+		<div class="row portfolio-container">
+			<div id="portfolio-identidad"></div>
 
-				<div id="portfolio-foto">
-
-
-					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img class="d-block" src="img/fotografia-1.jpg" alt="Dos Santas">
-								<p>Dos Santas</p>
-							</div>
-							<div class="carousel-item">
-								<img class="d-block" src="img/fotografia-2.jpg" alt="Dos Santas">
-								<p>Dos Santas</p>
-							</div>
-							<div class="carousel-item">
-								<img class="d-block" src="img/fotografia-3.jpg" alt="Dos Santas">
-								<p>Dos Santas</p>
-							</div>
-							<div class="carousel-item">
-								<img class="d-block" src="img/fotografia-4.jpg" alt="Dos Santas">
-								<p>Dos Santas</p>
-							</div>
-							<div class="carousel-item">
-								<img class="d-block" src="img/fotografia-5.jpg" alt="Dos Santas">
-								<p>Dos Santas</p>
-							</div>
-							<div class="carousel-item">
-								<img class="d-block" src="img/fotografia-6.jpg" alt="Dos Santas">
-								<p>Dos Santas</p>
-							</div>
+			<div id="portfolio-foto">
+				<div id="slider-fotografia" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block" src="img/fotografia-1.jpg" alt="Dos Santas">
+							<p>Dos Santas</p>
 						</div>
-						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						</a>
-						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						</a>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-2.jpg" alt="Dos Santas">
+							<p>Dos Santas</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-3.jpg" alt="Dos Santas">
+							<p>Dos Santas</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-4.jpg" alt="Dos Santas">
+							<p>Dos Santas</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-5.jpg" alt="Dos Santas">
+							<p>Dos Santas</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-6.jpg" alt="Dos Santas">
+							<p>Dos Santas</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-7.jpg" alt="Vono">
+							<p>Vono</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-8.jpg" alt="Vono">
+							<p>Vono</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-9.jpg" alt="Vono">
+							<p>Vono</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-10.jpg" alt="Vono">
+							<p>Vono</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-11.jpg" alt="Vono">
+							<p>Vono</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-12.jpg" alt="Hotel Albertina">
+							<p>Hotel Albertina</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-13.jpg" alt="Hotel Albertina">
+							<p>Hotel Albertina</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-14.jpg" alt="Hotel Albertina">
+							<p>Hotel Albertina</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-15.jpg" alt="Hotel Albertina">
+							<p>Hotel Albertina</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-16.jpg" alt="Hotel Albertina">
+							<p>Hotel Albertina</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-17.jpg" alt="Hotel Albertina">
+							<p>Hotel Albertina</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-18.jpg" alt="Hotel Albertina">
+							<p>Hotel Albertina</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-19.jpg" alt="Hotel Albertina">
+							<p>Hotel Albertina</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-20.jpg" alt="Hotel Albertina">
+							<p>Hotel Albertina</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-21.jpg" alt="Hotel Albertina">
+							<p>Hotel Albertina</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-22.jpg" alt="Hotel Albertina">
+							<p>Hotel Albertina</p>
+						</div>
 					</div>
-
-
-
-
-
-
-				</div>
-
-				<div id="portfolio-grafico">
-				
-				</div>
-
-				<div id="portfolio-mktdigital">
-				
+					<a class="carousel-control-prev" href="#slider-fotografia" role="button" data-slide="prev">
+						<span class="icon-arrow-left2" aria-hidden="true"></span>
+					</a>
+					<a class="carousel-control-next" href="#slider-fotografia" role="button" data-slide="next">
+						<span class="icon-arrow-right2" aria-hidden="true"></span>
+					</a>
 				</div>
 			</div>
+
+			<div id="portfolio-grafico">
+				<div id="slider-grafico" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block" src="img/diseno-01.jpg" alt="El Rey del Copetín">
+							<p>El Rey del Copetín</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/diseno-02.jpg" alt="El Rey del Copetín">
+							<p>El Rey del Copetín</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/diseno-03.jpg" alt="El Rey del Copetín">
+							<p>El Rey del Copetín</p>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#slider-grafico" role="button" data-slide="prev">
+						<span class="icon-arrow-left2" aria-hidden="true"></span>
+					</a>
+					<a class="carousel-control-next" href="#slider-grafico" role="button" data-slide="next">
+						<span class="icon-arrow-right2" aria-hidden="true"></span>
+					</a>
+				</div>
+			</div>
+
+			<div id="portfolio-mktdigital"></div>
+		</div>
 	</section>
+
+	<!-- FOOTER -->
+	<footer id="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-lg-6 columna1 order-2 order-lg-1">
+					<div class="col-12">
+						<p><span class="icon-logo-merlin"></span></p>
+					</div>
+					<div class="col-12 contacto">
+						<p>Av. Rioja 454 sur, Capital, San Juan. Argentina.</p>
+						<p>merlinestudio@gmail.com</p>
+						<p>florenciaserer@merlinestudio.com</p>
+						<p>+54 264 5 678934</p>
+					</div>
+					<div class="col-12">
+						<form>
+							<input type="text" name="" placeholder="Nombre">
+							<input type="text" name="" placeholder="E-Mail">
+							<textarea rows="5" placeholder="Mensaje"></textarea>
+							<input type="submit" name="" placeholder="Enviar">
+						</form>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 columna2 d-flex align-items-center justify-content-center order-1 order-lg-2">
+					<img src="img/contacto.png" class="img-fluid" alt="Merlín Estudio">
+				</div>
+			</div>
+		</div>
+	</footer>
 	
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/popper.min.js"></script>
@@ -232,11 +334,10 @@
 
 		// Con este escript lo que hacemos que al seleccionar una de las opciones del menú se deslice hasta esa sección suavemente.
 		var listaIDS = [document.getElementById('btn-menu-merlin'),
-				document.getElementById('btn-menu-m-merlin'),
 				document.getElementById('btn-menu-hdv'),
-				document.getElementById('btn-menu-m-hdv'),
 				document.getElementById('btn-menu-qf'),
-				document.getElementById('btn-menu-m-qf'),
+				document.getElementById('btn-menu-portfolio'),
+				document.getElementById('btn-menu-footer')
 				];
 
 		for (var i=0; i<listaIDS.length; i++) {
@@ -255,5 +356,24 @@
 			});
 		}
 	</script>
+	<script>
+		$(document).ready(function(){
+			$('.ir-arriba').click(function(){
+				$('body, html').animate({
+					scrollTop: '0px'
+				}, 300);
+			});
+			$(window).scroll(function(){
+				if( $(this).scrollTop() > 0 ){
+					$('.ir-arriba').slideDown(300);
+				} else {
+					$('.ir-arriba').slideUp(300);
+				}
+			});
+		});
+	</script>
+	<div class="d-none d-lg-block">
+		<span class="ir-arriba"></span>
+	</div>
 </body>
 </html>

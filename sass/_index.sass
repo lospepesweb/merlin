@@ -24,6 +24,7 @@ header
 	height: 100vh
 	padding-top: calc((100vh - 552px) / 2)
 	padding-bottom: calc((100vh - 552px) / 2)
+	color: $negro !important
 	@media (max-width: 991px)
 		height: auto
 		padding: 75px 15px
@@ -32,7 +33,6 @@ header
 			padding-right: 15px
 		p:first-child
 			margin-top: 50px
-
 
 
 // --- HACIA DONDE VAMOS --- //
@@ -59,7 +59,7 @@ header
 				margin-top: 0
 		.widget-container
 			margin-top: 256px
-			border: 3px solid #A3D414
+			border: 3px solid $verde
 			padding-top: 30px
 			padding-bottom: 30px
 			height: 90px
@@ -141,6 +141,9 @@ header
 		height: 1000px
 		@media (max-width: 991px)
 			height: 500px
+		img
+			@media (max-width: 991px)
+				width: 70%
 	.columna2
 		.row
 			height: 300px
@@ -162,8 +165,12 @@ header
 
 // --- PORTFOLIO --- //
 .portfolio
-	padding-top: 100px
 	padding-bottom: 100px
+	.row
+		&:first-child
+			margin-bottom: 15px
+			@media (max-width: 991px)
+				margin-bottom: 60px
 	h2
 		margin-bottom: 0
 	.navbar
@@ -172,20 +179,36 @@ header
 			margin-right: 0
 			margin-left: auto
 			margin-bottom: 0
+			@media (max-width: 991px)
+				margin-left: 0
+				margin-right: auto
+				padding-left: 0
+				margin-top: 45px
 			li
 				@media (max-width: 991px)
 					display: inline-block
 				button
 					background: none
 					border: none
+					&:first-child
+						@media (max-width: 991px)
+							padding-left: 0
+							padding-right: 12px
 					&:hover
 						cursor: pointer
+					&:focus, &:active
+						outline: none
+					@media (max-width: 575px)
+						font-size: 12px
+
 	.portfolio-container
 		position: relative
 		overflow: hidden
 		width: 100%
-		height: 625px
+		height: 635px
 		margin-left: 0
+		@media (max-width: 575px)
+			height: 270px
 
 		#portfolio-identidad
 			position: absolute
@@ -195,7 +218,8 @@ header
 			background-color: red
 			transition: all 0.3s ease
 
-		#portfolio-foto
+		#portfolio-foto,
+		#portfolio-grafico
 			position: absolute
 			height: 100%
 			width: 100%
@@ -204,18 +228,38 @@ header
 			img
 				margin-left: auto
 				margin-right: auto
+				max-width: 600px
+				@media (max-width: 575px)
+					width: 70%
 			p
 				font-family: $regularSC
 				width: 600px
+				margin-top: 10px
 				margin-left: auto
 				margin-right: auto
-		#portfolio-grafico
-			position: absolute
-			height: 100%
-			width: 100%
-			left: 200%
-			background-color: black
-			transition: all 0.3s ease
+				@media (max-width: 575px)
+					width: 70%
+					font-size: 12px
+			.carousel-control-prev,
+			.carousel-control-next
+				background: none
+				opacity: 1 !important
+				height: calc(100% - 50px)
+				@media (max-width: 575px)
+					height: calc(100% - 44px)
+				span
+					padding: 15px
+					border: 2px solid $negro
+					border-radius: 2px
+					@media (max-width: 575px)
+						padding: 5px
+						border: 1px solid $negro
+						line-height: 14px
+					&:active
+						background: $negro
+				&:active span
+					color: #fff !important
+
 		#portfolio-mktdigital
 			position: absolute
 			height: 100%
@@ -223,3 +267,102 @@ header
 			left: 300%
 			background-color: blue
 			transition: all 0.3s ease
+
+
+// --- FOOTER --- //
+footer
+	color: #fff
+	background-color: $negro
+	.container-fluid
+	.columna1
+		padding-top:  100px
+		padding-bottom: 100px
+		padding-left: 7.5%
+		padding-right: 7.5%
+		.icon-logo-merlin:before
+			color: #fff
+			font-size: 72px
+		.contacto
+			margin-top: 70px
+			margin-bottom: 70px
+			p
+				margin-bottom: 0
+				&:last-child
+					margin-top: 30px
+					font-size: 24px
+		form
+			input, textarea
+				background: transparent
+				color: #fff !important
+				border: none
+				font-family: $regular
+				&:focus, &:active, &:hover
+					outline: none
+				&::placeholder
+					color: #fff
+
+			input[type='text']
+				width: 47.5%
+				border-bottom: 2px solid #fff
+				padding-bottom: 10px
+				margin-bottom: 15px
+				+transition(all 0.5s ease)
+				&:first-child
+					margin-right: 3.9%
+					@media (max-width: 1235px)
+						margin-right: 3.8%
+					@media (max-width: 1235px)
+						margin-right: 3.7%
+					@media (max-width: 1058px)
+						margin-right: 3.6%
+					@media (max-width: 417px)
+						margin-right: 3.5%
+					@media (max-width: 392px)
+						margin-right: 3%
+				&:focus
+					border-color: $verde
+
+			textarea
+				width: 100%
+				resize: none
+				border-bottom: 2px solid #fff
+				+transition(all 0.5s ease)
+				rows: 150
+				&:focus
+					border-color: $verde
+
+			input[type='submit']
+				display: block
+				margin-right: 0
+				margin-left: auto
+				margin-top: 10px
+				padding-right: 0
+				+transition(all 0.5s ease)
+				&:focus, &:active, &:hover
+					color: $verde !important
+
+	.columna2
+		padding: 0
+		background-image: url("../img/comerdo.jpg") !important
+		background-size: cover
+		width: 100%
+		img
+			@media (max-width: 991px)
+				width: 50%
+				padding-top: 50px
+				padding-bottom: 50px
+
+
+// --- IR ARRIBA --- //
+.ir-arriba 
+	display: none
+	background-color: transparent
+	cursor: pointer
+	position: fixed
+	bottom: 15px
+	right: 15px
+	background-image: url(../img/flecha.png)
+	width: 36px
+	height: 39px
+	// border-radius: 5px
+	z-index: 9999 !important

@@ -37,22 +37,36 @@ $regularSC: 'Scala-RegularSC'
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 
+.icon-arrow-right2:before
+  content: "\ea3c"
+  color: $negro
+  font-size: 18px
+  @media (max-width: 575px)
+    font-size: 14px
 
-.icon-be:before
-  content: "\e901"
-  color: #2E3339 
-
-.icon-fb:before
-  content: "\e902"
-  color: #2E3339
-
-.icon-instagram:before
-  content: "\e903"
-  color: #2E3339
+.icon-arrow-left2:before
+  content: "\ea40"
+  color: $negro
+  font-size: 18px
+  @media (max-width: 575px)
+    font-size: 14px
 
 .icon-logo-merlin:before
-  content: "\e900"
+  content: "\e902"
+  color: $negro
 
+.icon-be:before
+  content: "\e903"
+  color: $negro
+  
+.icon-fb:before
+  content: "\e904"
+  color: $negro
+  
+.icon-instagram:before
+  content: "\e905"
+  color: $negro
+  
 
 
 h1, h2
@@ -66,3 +80,6 @@ p
   font-family: $regular
   @media (max-width: 991px)
     font-size: 14px
+
+a:hover
+  text-decoration: none !important
