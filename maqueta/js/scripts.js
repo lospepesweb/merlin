@@ -58,3 +58,55 @@ $('.carousel').carousel({
 
 
 /*==================  End of SLIDER  ===================*/
+
+
+
+$('#btn-menu-merlin').click(function(){
+	
+	$('#btn-menu-merlin').addClass('active');
+	$('#btn-menu-hdv').removeClass('active');
+	$('#btn-menu-qf').removeClass('active');
+	$('#btn-menu-portfolio').removeClass('active');
+	$('#btn-menu-footer').removeClass('active');
+
+})
+
+$('#btn-menu-hdv').click(function(){
+	
+	$('#btn-menu-merlin').removeClass('active');
+	$('#btn-menu-hdv').addClass('active');
+	$('#btn-menu-qf').removeClass('active');
+	$('#btn-menu-portfolio').removeClass('active');
+	$('#btn-menu-footer').removeClass('active');
+
+})
+
+$('#btn-menu-qf').click(function(){
+	
+	$('#btn-menu-merlin').removeClass('active');
+	$('#btn-menu-hdv').removeClass('active');
+	$('#btn-menu-qf').addClass('active');
+	$('#btn-menu-portfolio').removeClass('active');
+	$('#btn-menu-footer').removeClass('active');
+
+})
+
+$('#btn-menu-portfolio').click(function(){
+	
+	$('#btn-menu-merlin').removeClass('active');
+	$('#btn-menu-hdv').removeClass('active');
+	$('#btn-menu-qf').removeClass('active');
+	$('#btn-menu-portfolio').addClass('active');
+	$('#btn-menu-footer').removeClass('active');
+
+})
+
+$('#btn-menu-footer').click(function(){
+	
+	$('#btn-menu-merlin').removeClass('active');
+	$('#btn-menu-hdv').removeClass('active');
+	$('#btn-menu-qf').removeClass('active');
+	$('#btn-menu-portfolio').removeClass('active');
+	$('#btn-menu-footer').addClass('active');
+
+})
