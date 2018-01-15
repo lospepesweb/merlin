@@ -396,32 +396,32 @@ a:hover {
 footer {
   color: #fff;
   background-color: #2E3339; }
-  footer .columna1 {
+  footer .container-fluid .columna1 {
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 7.5%;
     padding-right: 7.5%; }
-    footer .columna1 .icon-logo-merlin:before {
+    footer .container-fluid .columna1 .icon-logo-merlin:before {
       color: #fff;
       font-size: 72px; }
-    footer .columna1 .contacto {
+    footer .container-fluid .columna1 .contacto {
       margin-top: 70px;
       margin-bottom: 70px; }
-      footer .columna1 .contacto p {
+      footer .container-fluid .columna1 .contacto p {
         margin-bottom: 0; }
-        footer .columna1 .contacto p:last-child {
+        footer .container-fluid .columna1 .contacto p:last-child {
           margin-top: 30px;
           font-size: 24px; }
-    footer .columna1 form input, footer .columna1 form textarea {
+    footer .container-fluid .columna1 form input, footer .container-fluid .columna1 form textarea {
       background: transparent;
       color: #fff !important;
       border: none;
       font-family: "Scala-Regular"; }
-      footer .columna1 form input:focus, footer .columna1 form input:active, footer .columna1 form input:hover, footer .columna1 form textarea:focus, footer .columna1 form textarea:active, footer .columna1 form textarea:hover {
+      footer .container-fluid .columna1 form input:focus, footer .container-fluid .columna1 form input:active, footer .container-fluid .columna1 form input:hover, footer .container-fluid .columna1 form textarea:focus, footer .container-fluid .columna1 form textarea:active, footer .container-fluid .columna1 form textarea:hover {
         outline: none; }
-      footer .columna1 form input::placeholder, footer .columna1 form textarea::placeholder {
+      footer .container-fluid .columna1 form input::placeholder, footer .container-fluid .columna1 form textarea::placeholder {
         color: #fff; }
-    footer .columna1 form input[type='text'] {
+    footer .container-fluid .columna1 form input[type='text'] {
       width: 47.5%;
       border-bottom: 2px solid #fff;
       padding-bottom: 10px;
@@ -430,26 +430,26 @@ footer {
       -moz-transition: all 0.5s ease;
       -ms-transition: all 0.5s ease;
       -transition: all 0.5s ease; }
-      footer .columna1 form input[type='text']:first-child {
+      footer .container-fluid .columna1 form input[type='text']:first-child {
         margin-right: 3.9%; }
         @media (max-width: 1235px) {
-          footer .columna1 form input[type='text']:first-child {
+          footer .container-fluid .columna1 form input[type='text']:first-child {
             margin-right: 3.8%; } }
         @media (max-width: 1235px) {
-          footer .columna1 form input[type='text']:first-child {
+          footer .container-fluid .columna1 form input[type='text']:first-child {
             margin-right: 3.7%; } }
         @media (max-width: 1058px) {
-          footer .columna1 form input[type='text']:first-child {
+          footer .container-fluid .columna1 form input[type='text']:first-child {
             margin-right: 3.6%; } }
         @media (max-width: 417px) {
-          footer .columna1 form input[type='text']:first-child {
+          footer .container-fluid .columna1 form input[type='text']:first-child {
             margin-right: 3.5%; } }
         @media (max-width: 392px) {
-          footer .columna1 form input[type='text']:first-child {
+          footer .container-fluid .columna1 form input[type='text']:first-child {
             margin-right: 3%; } }
-      footer .columna1 form input[type='text']:focus {
+      footer .container-fluid .columna1 form input[type='text']:focus {
         border-color: #A3D414; }
-    footer .columna1 form textarea {
+    footer .container-fluid .columna1 form textarea {
       width: 100%;
       resize: none;
       border-bottom: 2px solid #fff;
@@ -458,9 +458,9 @@ footer {
       -ms-transition: all 0.5s ease;
       -transition: all 0.5s ease;
       rows: 150; }
-      footer .columna1 form textarea:focus {
+      footer .container-fluid .columna1 form textarea:focus {
         border-color: #A3D414; }
-    footer .columna1 form input[type='submit'] {
+    footer .container-fluid .columna1 form input[type='submit'] {
       display: block;
       margin-right: 0;
       margin-left: auto;
@@ -470,15 +470,15 @@ footer {
       -moz-transition: all 0.5s ease;
       -ms-transition: all 0.5s ease;
       -transition: all 0.5s ease; }
-      footer .columna1 form input[type='submit']:focus, footer .columna1 form input[type='submit']:active, footer .columna1 form input[type='submit']:hover {
+      footer .container-fluid .columna1 form input[type='submit']:focus, footer .container-fluid .columna1 form input[type='submit']:active, footer .container-fluid .columna1 form input[type='submit']:hover {
         color: #A3D414 !important; }
-  footer .columna2 {
+  footer .container-fluid .columna2 {
     padding: 0;
     background-image: url("../img/comerdo.jpg") !important;
     background-size: cover;
     width: 100%; }
     @media (max-width: 991px) {
-      footer .columna2 img {
+      footer .container-fluid .columna2 img {
         width: 50%;
         padding-top: 50px;
         padding-bottom: 50px; } }
