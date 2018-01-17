@@ -115,3 +115,28 @@ $('#btn-menu-footer').click(function(){
 	$('#btn-menu-footer').addClass('active');
 
 })
+
+
+
+/*=======================================================
+=             MARGIN BOOTOM DEL MENU MOVIL              =
+=======================================================*/
+
+// VARIABLES
+var anchoPantalla = window.innerWidth;
+var alturaPantalla = window.innerHeight;
+var marginBottom = ((alturaPantalla - 424));
+var divRedes = document.getElementById("redes-container");
+
+// FUNCIONES
+if (anchoPantalla < 991) {
+	divRedes.setAttribute("style","margin-bottom:"+marginBottom+"px !important");
+}
+
+/*====  End of MARGIN BOOTOM DEL MENU MOVI  ====*/
+
+
+
+$('#menu-toggle').click(function(){
+  $(this).toggleClass('open');
+})
