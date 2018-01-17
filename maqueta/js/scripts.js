@@ -13,6 +13,11 @@ btnFoto = $("#btn-port-foto");
 btnGrafico = $("#btn-port-grafico");
 btnMkt = $("#btn-port-mkt");
 
+// Seteo inicial
+$('#portfolio-identidad').css('left', '0%');
+$('#portfolio-foto').css('left', '100%');
+$('#portfolio-grafico').css('left', '200%');
+$('#portfolio-mktdigital').css('left', '300%');
 
 btnIdentidad.click(function(){
 	$('#portfolio-identidad').css('left', '0%');

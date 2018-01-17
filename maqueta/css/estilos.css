@@ -317,26 +317,33 @@ a:hover {
       height: 100%;
       width: 100%;
       left: 0%;
-      background-color: red;
       transition: all 0.3s ease; }
     .portfolio .portfolio-container #portfolio-foto,
-    .portfolio .portfolio-container #portfolio-grafico {
+    .portfolio .portfolio-container #portfolio-grafico,
+    .portfolio .portfolio-container #portfolio-identidad,
+    .portfolio .portfolio-container #portfolio-mktdigital {
       position: absolute;
       height: 100%;
       width: 100%;
       left: 100%;
       transition: all 0.3s ease; }
       .portfolio .portfolio-container #portfolio-foto img,
-      .portfolio .portfolio-container #portfolio-grafico img {
+      .portfolio .portfolio-container #portfolio-grafico img,
+      .portfolio .portfolio-container #portfolio-identidad img,
+      .portfolio .portfolio-container #portfolio-mktdigital img {
         margin-left: auto;
         margin-right: auto;
         max-width: 600px; }
         @media (max-width: 575px) {
           .portfolio .portfolio-container #portfolio-foto img,
-          .portfolio .portfolio-container #portfolio-grafico img {
+          .portfolio .portfolio-container #portfolio-grafico img,
+          .portfolio .portfolio-container #portfolio-identidad img,
+          .portfolio .portfolio-container #portfolio-mktdigital img {
             width: 70%; } }
       .portfolio .portfolio-container #portfolio-foto p,
-      .portfolio .portfolio-container #portfolio-grafico p {
+      .portfolio .portfolio-container #portfolio-grafico p,
+      .portfolio .portfolio-container #portfolio-identidad p,
+      .portfolio .portfolio-container #portfolio-mktdigital p {
         font-family: "Scala-RegularSC";
         width: 600px;
         margin-top: 10px;
@@ -344,13 +351,19 @@ a:hover {
         margin-right: auto; }
         @media (max-width: 575px) {
           .portfolio .portfolio-container #portfolio-foto p,
-          .portfolio .portfolio-container #portfolio-grafico p {
+          .portfolio .portfolio-container #portfolio-grafico p,
+          .portfolio .portfolio-container #portfolio-identidad p,
+          .portfolio .portfolio-container #portfolio-mktdigital p {
             width: 70%;
             font-size: 12px; } }
       .portfolio .portfolio-container #portfolio-foto .carousel-control-prev,
       .portfolio .portfolio-container #portfolio-foto .carousel-control-next,
       .portfolio .portfolio-container #portfolio-grafico .carousel-control-prev,
-      .portfolio .portfolio-container #portfolio-grafico .carousel-control-next {
+      .portfolio .portfolio-container #portfolio-grafico .carousel-control-next,
+      .portfolio .portfolio-container #portfolio-identidad .carousel-control-prev,
+      .portfolio .portfolio-container #portfolio-identidad .carousel-control-next,
+      .portfolio .portfolio-container #portfolio-mktdigital .carousel-control-prev,
+      .portfolio .portfolio-container #portfolio-mktdigital .carousel-control-next {
         background: none;
         opacity: 1 !important;
         height: calc(100% - 50px); }
@@ -358,12 +371,20 @@ a:hover {
           .portfolio .portfolio-container #portfolio-foto .carousel-control-prev,
           .portfolio .portfolio-container #portfolio-foto .carousel-control-next,
           .portfolio .portfolio-container #portfolio-grafico .carousel-control-prev,
-          .portfolio .portfolio-container #portfolio-grafico .carousel-control-next {
+          .portfolio .portfolio-container #portfolio-grafico .carousel-control-next,
+          .portfolio .portfolio-container #portfolio-identidad .carousel-control-prev,
+          .portfolio .portfolio-container #portfolio-identidad .carousel-control-next,
+          .portfolio .portfolio-container #portfolio-mktdigital .carousel-control-prev,
+          .portfolio .portfolio-container #portfolio-mktdigital .carousel-control-next {
             height: calc(100% - 44px); } }
         .portfolio .portfolio-container #portfolio-foto .carousel-control-prev span,
         .portfolio .portfolio-container #portfolio-foto .carousel-control-next span,
         .portfolio .portfolio-container #portfolio-grafico .carousel-control-prev span,
-        .portfolio .portfolio-container #portfolio-grafico .carousel-control-next span {
+        .portfolio .portfolio-container #portfolio-grafico .carousel-control-next span,
+        .portfolio .portfolio-container #portfolio-identidad .carousel-control-prev span,
+        .portfolio .portfolio-container #portfolio-identidad .carousel-control-next span,
+        .portfolio .portfolio-container #portfolio-mktdigital .carousel-control-prev span,
+        .portfolio .portfolio-container #portfolio-mktdigital .carousel-control-next span {
           padding: 15px;
           border: 2px solid #2E3339;
           border-radius: 2px; }
@@ -371,26 +392,37 @@ a:hover {
             .portfolio .portfolio-container #portfolio-foto .carousel-control-prev span,
             .portfolio .portfolio-container #portfolio-foto .carousel-control-next span,
             .portfolio .portfolio-container #portfolio-grafico .carousel-control-prev span,
-            .portfolio .portfolio-container #portfolio-grafico .carousel-control-next span {
+            .portfolio .portfolio-container #portfolio-grafico .carousel-control-next span,
+            .portfolio .portfolio-container #portfolio-identidad .carousel-control-prev span,
+            .portfolio .portfolio-container #portfolio-identidad .carousel-control-next span,
+            .portfolio .portfolio-container #portfolio-mktdigital .carousel-control-prev span,
+            .portfolio .portfolio-container #portfolio-mktdigital .carousel-control-next span {
               padding: 5px;
               border: 1px solid #2E3339;
               line-height: 14px; } }
           .portfolio .portfolio-container #portfolio-foto .carousel-control-prev span:active,
           .portfolio .portfolio-container #portfolio-foto .carousel-control-next span:active,
           .portfolio .portfolio-container #portfolio-grafico .carousel-control-prev span:active,
-          .portfolio .portfolio-container #portfolio-grafico .carousel-control-next span:active {
+          .portfolio .portfolio-container #portfolio-grafico .carousel-control-next span:active,
+          .portfolio .portfolio-container #portfolio-identidad .carousel-control-prev span:active,
+          .portfolio .portfolio-container #portfolio-identidad .carousel-control-next span:active,
+          .portfolio .portfolio-container #portfolio-mktdigital .carousel-control-prev span:active,
+          .portfolio .portfolio-container #portfolio-mktdigital .carousel-control-next span:active {
             background: #2E3339; }
         .portfolio .portfolio-container #portfolio-foto .carousel-control-prev:active span,
         .portfolio .portfolio-container #portfolio-foto .carousel-control-next:active span,
         .portfolio .portfolio-container #portfolio-grafico .carousel-control-prev:active span,
-        .portfolio .portfolio-container #portfolio-grafico .carousel-control-next:active span {
+        .portfolio .portfolio-container #portfolio-grafico .carousel-control-next:active span,
+        .portfolio .portfolio-container #portfolio-identidad .carousel-control-prev:active span,
+        .portfolio .portfolio-container #portfolio-identidad .carousel-control-next:active span,
+        .portfolio .portfolio-container #portfolio-mktdigital .carousel-control-prev:active span,
+        .portfolio .portfolio-container #portfolio-mktdigital .carousel-control-next:active span {
           color: #fff !important; }
     .portfolio .portfolio-container #portfolio-mktdigital {
       position: absolute;
       height: 100%;
       width: 100%;
       left: 300%;
-      background-color: blue;
       transition: all 0.3s ease; }
 
 footer {
