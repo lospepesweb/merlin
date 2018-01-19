@@ -1,7 +1,7 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 
-RewriteEngine On	
-RewriteCond %{HTTP_HOST} ^merlinestudio.com [NC]
-RewriteRule ^(.*)$ http://www.merlinestudio.com/$1 [L,R=301]
 
 <IfModule mod_expires.c>
 ExpiresActive On
