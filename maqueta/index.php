@@ -34,7 +34,7 @@
 				<div class="col-12 col-lg-3 d-none d-lg-block order-2 order-lg-1">	
 					<a class="redes" href="https://www.instagram.com/merlinestudio/"><span class="icon-instagram"></span></a>
 					<a class="redes" href="https://www.facebook.com/MerlinEstudio/"><span class="icon-fb"></span></a>
-					<a class="redes" href="#."><span class="icon-be"></span></a>
+					<!-- <a class="redes" href="#."><span class="icon-be"></span></a> -->
 				</div>
 
 				<button class="navbar-toggler d-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbar">
@@ -63,7 +63,7 @@
 						<div id="redes-container" class="col-12 col-lg-3 d-block d-lg-none text-left redes-container">
 							<a class="redes" href="https://www.instagram.com/merlinestudio/"><span class="icon-instagram"></span></a>
 							<a class="redes" href="https://www.facebook.com/MerlinEstudio/"><span class="icon-fb"></span></a>
-							<a class="redes" href="#."><span class="icon-be"></span></a>
+							<!-- <a class="redes" href="#."><span class="icon-be"></span></a> -->
 						</div>
 					</ul>
 				</div>
@@ -79,7 +79,7 @@
 				<p>Merlín es un Estudio de Diseño Gráfico que ofrece servicios de calidad.<br>
 				Está integrado por Florencia y Paula, nació pensando en dar soluciones de comunicación visual para las necesidades de cada cliente. Creemos que el trabajo como diseñadoras gráficas funciona mejor con la retroalimentación con el cliente, evoluciona, hasta llegar al producto final, el momento mágico. Creemos que el diseño es mágico, encontrar la respuesta a través de colores, líneas, imágenes, es como armar la pócima perfecta, por eso nuestro estudio, lleva el nombre del místico mago.</p>
 			</div>
-			<h1 class="col-6 d-block d-lg-none text-center">¿quién es Merlín?</h1>
+			<h2 class="col-6 d-block d-lg-none text-center">¿quién es Merlín?</h2>
 			<div class="col-6 col-lg-6 text-center">
 				<img src="img/quien-es-merlin.png" class="img-fluid" alt="Merlín Estudio">
 			</div>
@@ -111,16 +111,18 @@
 						<p>Somos un Estudio de Diseño Gráfico que ofrece servicios de calidad. Nuestra misión es cumplir las expectativas de nuestros clientes, para eso, nos perfeccionamos e innovamos para garantizarles soluciones acordes con sus necesidades.</p>
 					</div>
 				</div>
-				<div class="col-12 col-lg-4">
-					<div class="widget-container vision">
-						<h3>Visión</h3>
-						<p>Pasión: Pasamos horas buscando la composición perfecta, la noche se vuelve día y cada nuevo proyecto una nueva oportunidad de volver a enamorarnos del diseño. <br> Mejora continua: Mantenemos el deseo y el compromiso de crecer día a día. <br> Transparencia: Nuestros mensajes y acciones son  claras, en nuestros procedimientos y modos de trabajo no queremos dejar lugar a dudas. <br> Competitividad: Que nos oriente a hacia la productividad y el trabajo en equipo. Compromiso: Brindamos seguridad y confianza a quie nes nos eligen.</p>
-					</div>
-				</div>
+
 				<div class="col-12 col-lg-4">
 					<div class="widget-container valores">
-						<h3>Valores</h3>
+						<h3>Visión</h3>
 						<p>Queremos ser referentes en comunicación visual, deseamos desempeñar un papel fundamental para ayudar a cualquier organización, profesional, empresa o cliente particular, en el desarrollo de susproyectos, aportando nuestro grano de arena para el crecimiento de ellos.</p>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-4">
+					<div class="widget-container vision">
+						<h3>Valores</h3>
+						<p>Pasión: Pasamos horas buscando la composición perfecta, la noche se vuelve día y cada nuevo proyecto una nueva oportunidad de volver a enamorarnos del diseño. <br> Mejora continua: Mantenemos el deseo y el compromiso de crecer día a día. <br> Transparencia: Nuestros mensajes y acciones son  claras, en nuestros procedimientos y modos de trabajo no queremos dejar lugar a dudas. <br> Competitividad: Que nos oriente a hacia la productividad y el trabajo en equipo. Compromiso: Brindamos seguridad y confianza a quie nes nos eligen.</p>
 					</div>
 				</div>
 			</div>
@@ -195,15 +197,111 @@
 				<div id="slider-identidad" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img class="d-block" src="img/identidad-1.jpg" alt="El Rey del Copetín">
-							<p>Blendit</p>
+							<img class="d-block" src="img/identidad-01.png" alt="Merlin Estudio - Identidad">
+							<p>Ruben A. Martin y Asociados</p>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block" src="img/identidad-2.jpg" alt="El Rey del Copetín">
-							<p>Blendit</p>
+							<img class="d-block" src="img/identidad-02.png" alt="Merlin Estudio - Identidad">
+							<p>La Mortal Kumbiat</p>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block" src="img/identidad-3.jpg" alt="El Rey del Copetín">
+							<img class="d-block" src="img/identidad-03.png" alt="Merlin Estudio - Identidad">
+							<p>Brote</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-04.png" alt="Merlin Estudio - Identidad">
+							<p>Poblete Castro y Asoc.</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-05.png" alt="Merlin Estudio - Identidad">
+							<p>Vono</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-06.png" alt="Merlin Estudio - Identidad">
+							<p>Pink</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-07.png" alt="Merlin Estudio - Identidad">
+							<p>Ana Laura Godoy</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-08.png" alt="Merlin Estudio - Identidad">
+							<p>LEA</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-09.png" alt="Merlin Estudio - Identidad">
+							<p>Visión Integral</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-10.png" alt="Merlin Estudio - Identidad">
+							<p>Altos del Solar</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-11.png" alt="Merlin Estudio - Identidad">
+							<p>Tierra</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-12.png" alt="Merlin Estudio - Identidad">
+							<p>La Josefina</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-13.png" alt="Merlin Estudio - Identidad">
+							<p>Avant Garde</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-14.png" alt="Merlin Estudio - Identidad">
+							<p>Ruka</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-15.png" alt="Merlin Estudio - Identidad">
+							<p>Cirec</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-16.png" alt="Merlin Estudio - Identidad">
+							<p>A puro futbol</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-17.png" alt="Merlin Estudio - Identidad">
+							<p>Maikali</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-18.png" alt="Merlin Estudio - Identidad">
+							<p>Tío Cacho</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-19.png" alt="Merlin Estudio - Identidad">
+							<p>OM</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-20.png" alt="Merlin Estudio - Identidad">
+							<p>Fisio Salud</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-21.png" alt="Merlin Estudio - Identidad">
+							<p>Karkajá</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-22.png" alt="Merlin Estudio - Identidad">
+							<p>Pranamar SRL</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-23.png" alt="Merlin Estudio - Identidad">
+							<p>Fracción</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-24.png" alt="Merlin Estudio - Identidad">
+							<p>Vermú</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-25.png" alt="Merlin Estudio - Identidad">
+							<p>Chalet Cantoni</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-26.png" alt="Merlin Estudio - Identidad">
+							<p>Marias</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/identidad-27.png" alt="Merlin Estudio - Identidad">
 							<p>Blendit</p>
 						</div>
 					</div>
