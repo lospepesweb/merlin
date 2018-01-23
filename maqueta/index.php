@@ -176,7 +176,7 @@
 	<section class="container portfolio" id="portfolio">
 		<div class="row align-items-end">
 			<div class="col-12 col-lg-4">
-				<h2>Portfolio</h2>
+				<h2>portfolio</h2>
 			</div>
 			<div class="col-12 col-lg-8">
 				<nav class="navbar">
