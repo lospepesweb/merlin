@@ -615,9 +615,9 @@
 					</div>
 					<div class="col-12">
 						<form method="POST" onsubmit="return validarMensaje()" id="fContacto">
-							<input type="text" id="nombre" name="nombre" placeholder="Nombre">
-							<input type="text" id="email" name="email" placeholder="E-Mail">
-							<textarea rows="5" id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+							<input type="text" id="nombre" name="nombre" placeholder="Nombre" required="">
+							<input type="text" id="email" name="email" placeholder="E-Mail" required="">
+							<textarea rows="5" id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
 							<input type="submit" name="" placeholder="Enviar">
 						</form>
 						<?php
@@ -638,7 +638,7 @@
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
-	<script type="text/javascript" src="js/validaCorreo.js"></script>
+	<script type="text/javascript" src="js/validaCorreo.min.js"></script>
 	<script type="text/javascript">
 
 		// Con este escript lo que hacemos que al seleccionar una de las opciones del menú se deslice hasta esa sección suavemente.
