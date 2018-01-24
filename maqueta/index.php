@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.min.css">
 	<meta charset="UTF-8">
 	<meta name="description" content="Merlín es un Estudio de Diseño Gráfico que ofrece servicios de calidad.">
 	<title>Merlín Estudio</title>
@@ -611,7 +611,9 @@
 						<p>Av. Rioja 454 sur, Capital, San Juan. Argentina.</p>
 						<p>merlinestudio@gmail.com</p>
 						<p>florenciaserer@merlinestudio.com</p>
-						<p>+54 264 5 678934</p>
+						<p>paulacamenforte@merlinestudio.com</p>
+						<p>+54 9 264 456-0474</p>
+						<p>+54 9 264 460-8922</p>
 					</div>
 					<div class="col-12">
 						<form method="POST" onsubmit="return validarMensaje()" id="fContacto">
