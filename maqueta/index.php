@@ -4,8 +4,28 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<meta charset="UTF-8">
+	<meta name="description" content="Merlín es un Estudio de Diseño Gráfico que ofrece servicios de calidad.">
 	<title>Merlín Estudio</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+
+	<!-- METATAGS -->
+	<meta name="languaje" content="ES"/>
+	<meta name="robots" content="index, follow"/>
+	<meta name="googlebot" content="index, follow"/>
+	<meta name="geo.region" content="AR-J"/>
+	<meta name="geo.placename" content="San Juan"/>
+	<meta name="author" content="Los Pepes WEB, www.lospepesweb.com"/>
+
+	<!--OG-->
+	<meta property="og:title" content="Merlin Estudio"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="http://www.merlinestudio.com"/>
+	<!-- <meta property="og:image" content="http://www.ghmtv.com/img/favicon-200x200.png"/> -->
+	<meta property="og:site_name" content="Merlín Estudio"/>
+	<meta property="og:description" content="Merlín es un Estudio de Diseño Gráfico que ofrece servicios de calidad."/>
+	<meta property="og:locale" content="es_LA"/>
 </head>
 <body>
 
