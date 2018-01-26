@@ -160,7 +160,7 @@
 				<div class="col-12 col-lg-4">
 					<div class="widget-container vision">
 						<h3>Valores</h3>
-						<p>Pasión: pasamos horas buscando la composición perfecta. La noche se vuelve día y cada nuevo proyecto es una nueva oportunidad de volver a enamorarnos del diseño. <br> Mejora continua: Mantenemos el deseo y el compromiso de crecer día a día. <br> Transparencia: nuestros mensajes y acciones son claras. En nuestros procedimientos y modos de trabajo, no queremos dejar lugar a dudas. <br> Competitividad: nos orienta la productividad y el trabajo en equipo.</p>
+						<p>Pasión: Pasamos horas buscando la composición perfecta. La noche se vuelve día y cada nuevo proyecto es una nueva oportunidad de volver a enamorarnos del diseño. <br> Mejora continua: Mantenemos el deseo y el compromiso de crecer día a día. <br> Transparencia: Nuestros mensajes y acciones son claras. En nuestros procedimientos y modos de trabajo, no queremos dejar lugar a dudas. <br> Competitividad: Nos orienta la productividad y el trabajo en equipo.</p>
 					</div>
 				</div>
 			</div>
