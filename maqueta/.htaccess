@@ -1,10 +1,10 @@
 
 
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://www.merlinestudio.com/%{REQUEST_URI} [L,R=301]
-</IfModule>
+# <IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://www.merlinestudio.com/%{REQUEST_URI} [L,R=301]
+#</IfModule>
 
 
 

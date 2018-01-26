@@ -10,7 +10,7 @@
 
 	<!-- FAVICON -->
 	
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/applec-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/manifest.json">
@@ -104,16 +104,16 @@
 		<div class="row align-items-center">
 			<div class="col-12 col-lg-6 d-none d-lg-block">
 				<h1>¿quién es Merlín?</h1>
-				<p>Merlín es un Estudio de Diseño Gráfico que ofrece servicios de calidad.<br>
-				Está integrado por Florencia y Paula, nació pensando en dar soluciones de comunicación visual para las necesidades de cada cliente. Creemos que el trabajo como diseñadoras gráficas funciona mejor con la retroalimentación con el cliente, evoluciona, hasta llegar al producto final, el momento mágico. Creemos que el diseño es mágico, encontrar la respuesta a través de colores, líneas, imágenes, es como armar la pócima perfecta, por eso nuestro estudio, lleva el nombre del místico mago.</p>
+				<p>Merlín es un estudio de Diseño Gráfico que ofrece servicios de calidad.<br>
+				Esta integrado por Florencia y Paula. Nació pensando en dar soluciones de comunicación visual para las necesidades de cada cliente. Creemos que el trabajo como diseñadoras gráficas funciona mejor con la retroalimentación con el cliente. Evoluciona hasta llegar al producto final... el momento mágico. Creemos que el diseño es mágico. Encontrar la respuesta a través de colores, líneas, imágenes es como armar la pocima perfecta. Por eso nuestro estudio lleva el nombre del místico mago.</p>
 			</div>
 			<h2 class="col-6 d-block d-lg-none text-center">¿quién es Merlín?</h2>
 			<div class="col-6 col-lg-6 text-center">
 				<img src="img/quien-es-merlin.png" class="img-fluid" alt="Merlín Estudio">
 			</div>
 			<div class="col-12 d-block d-lg-none">
-				<p>Merlín es un Estudio de Diseño Gráfico que ofrece servicios de calidad.<br>
-				Está integrado por Florencia y Paula, nació pensando en dar soluciones de comunicación visual para las necesidades de cada cliente. Creemos que el trabajo como diseñadoras gráficas funciona mejor con la retroalimentación con el cliente, evoluciona, hasta llegar al producto final, el momento mágico. Creemos que el diseño es mágico. Encontrar la respuesta a través de colores, líneas, imágenes, es como armar la pócima perfecta, por eso nuestro estudio, lleva el nombre del místico mago.</p>
+				<p>Merlín es un estudio de Diseño Gráfico que ofrece servicios de calidad.<br>
+				Esta integrado por Florencia y Paula. Nació pensando en dar soluciones de comunicación visual para las necesidades de cada cliente. Creemos que el trabajo como diseñadoras gráficas funciona mejor con la retroalimentación con el cliente. Evoluciona hasta llegar al producto final... el momento mágico. Creemos que el diseño es mágico. Encontrar la respuesta a través de colores, líneas, imágenes es como armar la pocima perfecta. Por eso nuestro estudio lleva el nombre del místico mago.</p>
 			</div>
 		</div>
 	</section>
@@ -143,14 +143,14 @@
 				<div class="col-12 col-lg-4">
 					<div class="widget-container valores">
 						<h3>Visión</h3>
-						<p>Queremos ser referentes en comunicación visual, deseamos desempeñar un papel fundamental para ayudar a cualquier organización, profesional, empresa o cliente particular, en el desarrollo de susproyectos, aportando nuestro grano de arena para el crecimiento de ellos.</p>
+						<p>Queremos ser referentes en comunicación visual. Deseamos desempeñar un papel fundamental para ayudar a cualquier organización, empresa, profesional o cliente particular en el desarrollo de sus proyectos, aportando nuestro grano de arena para su crecimiento.</p>
 					</div>
 				</div>
 
 				<div class="col-12 col-lg-4">
 					<div class="widget-container vision">
 						<h3>Valores</h3>
-						<p>Pasión: Pasamos horas buscando la composición perfecta, la noche se vuelve día y cada nuevo proyecto una nueva oportunidad de volver a enamorarnos del diseño. <br> Mejora continua: Mantenemos el deseo y el compromiso de crecer día a día. <br> Transparencia: Nuestros mensajes y acciones son  claras, en nuestros procedimientos y modos de trabajo no queremos dejar lugar a dudas. <br> Competitividad: Que nos oriente a hacia la productividad y el trabajo en equipo. Compromiso: Brindamos seguridad y confianza a quie nes nos eligen.</p>
+						<p>Pasión: pasamos horas buscando la composición perfecta. La noche se vuelve día y cada nuevo proyecto es una nueva oportunidad de volver a enamorarnos del diseño. <br> Mejora continua: Mantenemos el deseo y el compromiso de crecer día a día. <br> Transparencia: nuestros mensajes y acciones son claras. En nuestros procedimientos y modos de trabajo, no queremos dejar lugar a dudas. <br> Competitividad: nos orienta la productividad y el trabajo en equipo.</p>
 					</div>
 				</div>
 			</div>
@@ -220,6 +220,8 @@
 			</div>
 
 		</div>
+
+		<!-- Porfolio IDENTIDAD -->
 		<div class="row portfolio-container">
 			<div id="portfolio-identidad">
 				<div id="slider-identidad" class="carousel slide" data-ride="carousel">
@@ -342,6 +344,7 @@
 				</div>
 			</div>
 
+			<!-- Portfolio FOTOGRAFIA -->
 			<div id="portfolio-foto">
 				<div id="slider-fotografia" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
@@ -449,6 +452,18 @@
 							<img class="d-block" src="img/fotografia-26.jpg" alt="Grupo Boggian">
 							<p>Grupo Boggian</p>
 						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-27.png" alt="Hotel Alkazar">
+							<p>Hotel Alkazar</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-28.png" alt="Hotel Alkazar">
+							<p>Hotel Alkazar</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/fotografia-29.png" alt="Hotel Alkazar">
+							<p>Hotel Alkazar</p>
+						</div>
 					</div>
 					<a class="carousel-control-prev" href="#slider-fotografia" role="button" data-slide="prev">
 						<span class="icon-arrow-left2" aria-hidden="true"></span>
@@ -459,6 +474,7 @@
 				</div>
 			</div>
 
+			<!-- Portfolio GRAFICO -->
 			<div id="portfolio-grafico">
 				<div id="slider-grafico" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
@@ -474,6 +490,34 @@
 							<img class="d-block" src="img/diseno-03.jpg" alt="El Rey del Copetín">
 							<p>El Rey del Copetín</p>
 						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/diseno-04.png" alt="Colegio de Arquitectos de San Juan">
+							<p>Colegio de Arquitectos de San Juan</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/diseno-05.png" alt="Colegio de Arquitectos de San Juan">
+							<p>Colegio de Arquitectos de San Juan</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/diseno-06.png" alt="Colegio de Arquitectos de San Juan">
+							<p>Colegio de Arquitectos de San Juan</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/diseno-07.png" alt="Colegio de Arquitectos de San Juan">
+							<p>Colegio de Arquitectos de San Juan</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/diseno-08.jpg" alt="Tarjetas de Boda">
+							<p>Tarjetas de Boda</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/diseno-09.jpg" alt="Tarjetas de Boda">
+							<p>Tarjetas de Boda</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/diseno-10.jpg" alt="Tarjetas de Boda">
+							<p>Tarjetas de Boda</p>
+						</div>
 					</div>
 					<a class="carousel-control-prev" href="#slider-grafico" role="button" data-slide="prev">
 						<span class="icon-arrow-left2" aria-hidden="true"></span>
@@ -484,6 +528,7 @@
 				</div>
 			</div>
 
+			<!-- Portfolio MARKETING DIGITAL -->
 			<div id="portfolio-mktdigital">
 				<div id="slider-mktdigital" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
@@ -594,6 +639,58 @@
 						<div class="carousel-item">
 							<img class="d-block" src="img/mkt-27.jpg" alt="Empresa Mayo">
 							<p>Empresa Mayo</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-28.png" alt="Locos por la llama">
+							<p>Locos por la llama</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-29.png" alt="Locos por la llama">
+							<p>Locos por la llama</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-30.png" alt="Locos por la llama">
+							<p>Locos por la llama</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-31.gif" alt="Paseo Oeste">
+							<p>Paseo Oeste</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-32.png" alt="Paseo Oeste">
+							<p>Paseo Oeste</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-33.png" alt="Paseo Oeste">
+							<p>Paseo Oeste</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-34.png" alt="Muros Verdes">
+							<p>Muros Verdes</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-35.png" alt="Muros Verdes">
+							<p>Muros Verdes</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-36.png" alt="Muros Verdes">
+							<p>Muros Verdes</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-37.png" alt="ISRI">
+							<p>ISRI</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-38.png" alt="ISRI">
+							<p>ISRI</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-40.png" alt="Farmacias Echegaray">
+							<p>Farmacias Echegaray</p>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block" src="img/mkt-41.png" alt="Farmacias Echegaray">
+							<p>Farmacias Echegaray</p>
 						</div>
 					</div>
 					<a class="carousel-control-prev" href="#slider-mktdigital" role="button" data-slide="prev">
